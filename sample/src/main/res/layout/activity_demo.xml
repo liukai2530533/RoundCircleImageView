@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <com.newki.circle_round.RoundCircleImageView
+        android:id="@+id/iv_custom_round"
+        android:layout_width="@dimen/d_150dp"
+        android:layout_height="@dimen/d_150dp"
+        android:layout_marginTop="@dimen/d_10dp"
+        app:isCircle="false"
+        app:round_background_drawable="@drawable/shape_blue"
+        app:round_background_color="@color/gray"
+        app:round_radius="@dimen/d_20dp" />
+
+    <com.newki.circle_round.RoundCircleImageView
+        android:id="@+id/iv_custom_round2"
+        android:layout_width="@dimen/d_150dp"
+        android:layout_height="@dimen/d_150dp"
+        android:layout_marginTop="@dimen/d_10dp"
+        app:bottomLeft="@dimen/d_20dp"
+        app:bottomRight="@dimen/d_40dp"
+        app:isCircle="false"
+        app:round_background_drawable="@drawable/chengxiao"
+        app:topLeft="@dimen/d_40dp"
+        app:topRight="@dimen/d_20dp" />
+
+    <com.newki.circle_round.RoundCircleImageView
+        android:id="@+id/iv_custom_round3"
+        android:layout_width="@dimen/d_150dp"
+        android:layout_height="@dimen/d_150dp"
+        android:layout_marginTop="@dimen/d_10dp"
+        app:bottomLeft="@dimen/d_20dp"
+        app:bottomRight="@dimen/d_40dp"
+        app:isCircle="false"
+        app:round_background_color="@color/gray"
+        app:topLeft="@dimen/d_40dp"
+        app:topRight="@dimen/d_20dp" />
+
+
+</LinearLayout>
