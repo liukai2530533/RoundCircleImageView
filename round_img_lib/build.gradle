@@ -4,7 +4,7 @@ plugins {
 
     // vanniktech 插件
     id 'com.vanniktech.maven.publish'
-    
+
     // Kotlin Javadoc 插件
     id 'org.jetbrains.dokka'
 }
@@ -35,3 +35,6 @@ android {
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.3.0'
 }
+
+// 直接使用 maven 插件
+// apply from: rootProject.file('gradle/maven_sonatype.gradle')
