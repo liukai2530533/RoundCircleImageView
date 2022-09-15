@@ -53,8 +53,8 @@ dependencies {
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
 
-    implementation fileTree(include: ['*.aar'], dir: 'libs')
+//    implementation fileTree(include: ['*.aar'], dir: 'libs')
 //    implementation project(':round_img_lib')
-//    implementation "io.github.liukai2530533:round_circle_imageview:1.0.1"
+    implementation "io.github.liukai2530533:round_circle_imageview:1.0.1"
 
 }
